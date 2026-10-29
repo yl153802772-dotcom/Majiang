@@ -1,0 +1,1254 @@
+{
+  "version": "footer-exact-2026-10-28",
+  "source": "_source/approved_design.png",
+  "sourceSha256": "51846c175113ceccfc699a5f6d9296beac0aa7c429cca24d5c5a772dbdd5f10d",
+  "sourceSize": {
+    "width": 941,
+    "height": 1672
+  },
+  "region": {
+    "x": 0,
+    "y": 1300,
+    "width": 941,
+    "height": 372
+  },
+  "design": {
+    "width": 720,
+    "height": 1280,
+    "uniformScale": 0.7651434643995749,
+    "letterboxY": 0.34006376195532084
+  },
+  "scope": "Only exact static footer. Complements need to be assembled together; not independently movable art layers.",
+  "entries": [
+    {
+      "id": "footer_scenery",
+      "path": "L3_Background/bottom_exact/footer_scenery.png",
+      "purpose": "原图底部背景衬片，补足面板与云朵以外的原像素",
+      "order": 0,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": -2,
+        "y": 1298,
+        "width": 945,
+        "height": 376
+      },
+      "contentPixelRect": {
+        "x": 0,
+        "y": 1300,
+        "width": 941,
+        "height": 372
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 0,
+        "y": 0,
+        "width": 945,
+        "height": 376
+      },
+      "design720": {
+        "x": -1.5302869287991498,
+        "y": 993.4962805526036,
+        "width": 723.0605738575983,
+        "height": 287.6939426142402
+      },
+      "opaquePixelCount": 66147
+    },
+    {
+      "id": "meld_frame",
+      "path": "L1_UI/bottom_exact/frames/meld_frame.png",
+      "purpose": "凑副整行原图完整面板，包含原文字、槽位和装饰，不挖洞",
+      "order": 1,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 5,
+        "y": 1314,
+        "width": 927,
+        "height": 157
+      },
+      "contentPixelRect": {
+        "x": 7,
+        "y": 1316,
+        "width": 923,
+        "height": 153
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -2,
+        "y": 93.5,
+        "width": 927,
+        "height": 157
+      },
+      "design720": {
+        "x": 3.8257173219978746,
+        "y": 1005.7385759829967,
+        "width": 709.287991498406,
+        "height": 120.12752391073326
+      },
+      "opaquePixelCount": 136555
+    },
+    {
+      "id": "buffer_frame",
+      "path": "L1_UI/bottom_exact/frames/buffer_frame.png",
+      "purpose": "底槽整行原图完整面板，包含原文字、槽位和装饰，不挖洞",
+      "order": 2,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 30,
+        "y": 1450,
+        "width": 894,
+        "height": 160
+      },
+      "contentPixelRect": {
+        "x": 32,
+        "y": 1452,
+        "width": 890,
+        "height": 156
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 6.5,
+        "y": -44,
+        "width": 894,
+        "height": 160
+      },
+      "design720": {
+        "x": 22.954303931987248,
+        "y": 1109.7980871413388,
+        "width": 684.03825717322,
+        "height": 122.42295430393199
+      },
+      "opaquePixelCount": 135472
+    },
+    {
+      "id": "meld_label_cloud",
+      "path": "L1_UI/bottom_exact/foreground/meld_label_cloud.png",
+      "purpose": "凑副左侧标签云及原位置纹饰，保留其上原文字",
+      "order": 3,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 35,
+        "y": 1343,
+        "width": 117,
+        "height": 112
+      },
+      "contentPixelRect": {
+        "x": 37,
+        "y": 1345,
+        "width": 113,
+        "height": 108
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -377,
+        "y": 87,
+        "width": 117,
+        "height": 112
+      },
+      "design720": {
+        "x": 26.780021253985122,
+        "y": 1027.9277364505842,
+        "width": 89.52178533475026,
+        "height": 85.69606801275239
+      },
+      "opaquePixelCount": 11400
+    },
+    {
+      "id": "buffer_label_cloud",
+      "path": "L1_UI/bottom_exact/foreground/buffer_label_cloud.png",
+      "purpose": "底槽左侧标签云及原位置纹饰，保留其上原文字",
+      "order": 4,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 36,
+        "y": 1468,
+        "width": 117,
+        "height": 120
+      },
+      "contentPixelRect": {
+        "x": 38,
+        "y": 1470,
+        "width": 113,
+        "height": 116
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -376,
+        "y": -42,
+        "width": 117,
+        "height": 120
+      },
+      "design720": {
+        "x": 27.545164718384697,
+        "y": 1123.5706695005315,
+        "width": 89.52178533475026,
+        "height": 91.81721572794899
+      },
+      "opaquePixelCount": 12264
+    },
+    {
+      "id": "meld_slot_1",
+      "path": "L1_UI/bottom_exact/slots/meld_slot_1.png",
+      "purpose": "第1个完整副槽，含原编号纸片，保持各自高光差异",
+      "order": 5,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 151,
+        "y": 1335,
+        "width": 167,
+        "height": 110
+      },
+      "contentPixelRect": {
+        "x": 153,
+        "y": 1337,
+        "width": 163,
+        "height": 106
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -236,
+        "y": 96,
+        "width": 167,
+        "height": 110
+      },
+      "design720": {
+        "x": 115.53666312433582,
+        "y": 1021.8065887353879,
+        "width": 127.77895855472902,
+        "height": 84.16578108395325
+      },
+      "opaquePixelCount": 17278
+    },
+    {
+      "id": "meld_slot_2",
+      "path": "L1_UI/bottom_exact/slots/meld_slot_2.png",
+      "purpose": "第2个完整副槽，含原编号纸片，保持各自高光差异",
+      "order": 6,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 314,
+        "y": 1335,
+        "width": 167,
+        "height": 110
+      },
+      "contentPixelRect": {
+        "x": 316,
+        "y": 1337,
+        "width": 163,
+        "height": 106
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -73,
+        "y": 96,
+        "width": 167,
+        "height": 110
+      },
+      "design720": {
+        "x": 240.25504782146652,
+        "y": 1021.8065887353879,
+        "width": 127.77895855472902,
+        "height": 84.16578108395325
+      },
+      "opaquePixelCount": 17278
+    },
+    {
+      "id": "meld_slot_3",
+      "path": "L1_UI/bottom_exact/slots/meld_slot_3.png",
+      "purpose": "第3个完整副槽，含原编号纸片，保持各自高光差异",
+      "order": 7,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 477,
+        "y": 1335,
+        "width": 167,
+        "height": 110
+      },
+      "contentPixelRect": {
+        "x": 479,
+        "y": 1337,
+        "width": 163,
+        "height": 106
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 90,
+        "y": 96,
+        "width": 167,
+        "height": 110
+      },
+      "design720": {
+        "x": 364.97343251859724,
+        "y": 1021.8065887353879,
+        "width": 127.77895855472902,
+        "height": 84.16578108395325
+      },
+      "opaquePixelCount": 17278
+    },
+    {
+      "id": "meld_slot_4",
+      "path": "L1_UI/bottom_exact/slots/meld_slot_4.png",
+      "purpose": "第4个完整副槽，含原编号纸片，保持各自高光差异",
+      "order": 8,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 640,
+        "y": 1335,
+        "width": 167,
+        "height": 110
+      },
+      "contentPixelRect": {
+        "x": 642,
+        "y": 1337,
+        "width": 163,
+        "height": 106
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 253,
+        "y": 96,
+        "width": 167,
+        "height": 110
+      },
+      "design720": {
+        "x": 489.69181721572795,
+        "y": 1021.8065887353879,
+        "width": 127.77895855472902,
+        "height": 84.16578108395325
+      },
+      "opaquePixelCount": 17278
+    },
+    {
+      "id": "buffer_slot_1",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_1.png",
+      "purpose": "第1个底槽，保持各自蓝色渐变",
+      "order": 9,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 152,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 154,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -264.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 116.30180658873539,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_2",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_2.png",
+      "purpose": "第2个底槽，保持各自蓝色渐变",
+      "order": 10,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 256,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 258,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -160.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 195.87672688629118,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_3",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_3.png",
+      "purpose": "第3个底槽，保持各自蓝色渐变",
+      "order": 11,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 360,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 362,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -56.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 275.45164718384694,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_4",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_4.png",
+      "purpose": "第4个底槽，保持各自蓝色渐变",
+      "order": 12,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 464,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 466,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 47.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 355.02656748140276,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_5",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_5.png",
+      "purpose": "第5个底槽，保持各自蓝色渐变",
+      "order": 13,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 568,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 570,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 151.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 434.6014877789586,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_6",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_6.png",
+      "purpose": "第6个底槽，保持各自蓝色渐变",
+      "order": 14,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 672,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 674,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 255.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 514.1764080765143,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "buffer_slot_7",
+      "path": "L1_UI/bottom_exact/slots/buffer_slot_7.png",
+      "purpose": "第7个底槽，保持各自蓝色渐变",
+      "order": 15,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 776,
+        "y": 1462,
+        "width": 108,
+        "height": 128
+      },
+      "contentPixelRect": {
+        "x": 778,
+        "y": 1464,
+        "width": 104,
+        "height": 124
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 359.5,
+        "y": -40,
+        "width": 108,
+        "height": 128
+      },
+      "design720": {
+        "x": 593.7513283740701,
+        "y": 1118.979808714134,
+        "width": 82.63549415515409,
+        "height": 97.93836344314559
+      },
+      "opaquePixelCount": 12896
+    },
+    {
+      "id": "add_meld",
+      "path": "L1_UI/bottom_exact/buttons/add_meld.png",
+      "purpose": "右侧加号牌与原图投影",
+      "order": 16,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 806,
+        "y": 1331,
+        "width": 109,
+        "height": 116
+      },
+      "contentPixelRect": {
+        "x": 808,
+        "y": 1333,
+        "width": 105,
+        "height": 112
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 390,
+        "y": 97,
+        "width": 109,
+        "height": 116
+      },
+      "design720": {
+        "x": 616.7056323060574,
+        "y": 1018.7460148777895,
+        "width": 83.40063761955366,
+        "height": 88.75664187035069
+      },
+      "opaquePixelCount": 11760
+    },
+    {
+      "id": "meld_title_count",
+      "path": "L1_UI/bottom_exact/labels/meld_title_count.png",
+      "purpose": "凑副与0/4原字形，含背景像素，不重复加Label",
+      "order": 17,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 72,
+        "y": 1358,
+        "width": 68,
+        "height": 71
+      },
+      "contentPixelRect": {
+        "x": 74,
+        "y": 1360,
+        "width": 64,
+        "height": 67
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -364.5,
+        "y": 92.5,
+        "width": 68,
+        "height": 71
+      },
+      "design720": {
+        "x": 55.090329436769395,
+        "y": 1039.4048884165782,
+        "width": 52.029755579171095,
+        "height": 54.32518597236982
+      },
+      "opaquePixelCount": 4288
+    },
+    {
+      "id": "buffer_title_count",
+      "path": "L1_UI/bottom_exact/labels/buffer_title_count.png",
+      "purpose": "底槽与0/7原字形，含背景像素，不重复加Label",
+      "order": 18,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 73,
+        "y": 1482,
+        "width": 68,
+        "height": 72
+      },
+      "contentPixelRect": {
+        "x": 75,
+        "y": 1484,
+        "width": 64,
+        "height": 68
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -363.5,
+        "y": -32,
+        "width": 68,
+        "height": 72
+      },
+      "design720": {
+        "x": 55.855472901168966,
+        "y": 1134.2826780021255,
+        "width": 52.029755579171095,
+        "height": 55.090329436769395
+      },
+      "opaquePixelCount": 4352
+    },
+    {
+      "id": "meld_index_1",
+      "path": "L1_UI/bottom_exact/labels/meld_index_1.png",
+      "purpose": "副槽原图编号纸片1",
+      "order": 19,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 160,
+        "y": 1344,
+        "width": 39,
+        "height": 43
+      },
+      "contentPixelRect": {
+        "x": 162,
+        "y": 1346,
+        "width": 35,
+        "height": 39
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -291,
+        "y": 120.5,
+        "width": 39,
+        "height": 43
+      },
+      "design720": {
+        "x": 122.42295430393199,
+        "y": 1028.6928799149841,
+        "width": 29.840595111583422,
+        "height": 32.901168969181725
+      },
+      "opaquePixelCount": 1365
+    },
+    {
+      "id": "meld_index_2",
+      "path": "L1_UI/bottom_exact/labels/meld_index_2.png",
+      "purpose": "副槽原图编号纸片2",
+      "order": 20,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 323,
+        "y": 1344,
+        "width": 39,
+        "height": 43
+      },
+      "contentPixelRect": {
+        "x": 325,
+        "y": 1346,
+        "width": 35,
+        "height": 39
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -128,
+        "y": 120.5,
+        "width": 39,
+        "height": 43
+      },
+      "design720": {
+        "x": 247.1413390010627,
+        "y": 1028.6928799149841,
+        "width": 29.840595111583422,
+        "height": 32.901168969181725
+      },
+      "opaquePixelCount": 1365
+    },
+    {
+      "id": "meld_index_3",
+      "path": "L1_UI/bottom_exact/labels/meld_index_3.png",
+      "purpose": "副槽原图编号纸片3",
+      "order": 21,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 486,
+        "y": 1344,
+        "width": 39,
+        "height": 43
+      },
+      "contentPixelRect": {
+        "x": 488,
+        "y": 1346,
+        "width": 35,
+        "height": 39
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 35,
+        "y": 120.5,
+        "width": 39,
+        "height": 43
+      },
+      "design720": {
+        "x": 371.8597236981934,
+        "y": 1028.6928799149841,
+        "width": 29.840595111583422,
+        "height": 32.901168969181725
+      },
+      "opaquePixelCount": 1365
+    },
+    {
+      "id": "meld_index_4",
+      "path": "L1_UI/bottom_exact/labels/meld_index_4.png",
+      "purpose": "副槽原图编号纸片4",
+      "order": 22,
+      "bakedText": true,
+      "sourcePixelRect": {
+        "x": 649,
+        "y": 1344,
+        "width": 39,
+        "height": 43
+      },
+      "contentPixelRect": {
+        "x": 651,
+        "y": 1346,
+        "width": 35,
+        "height": 39
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 198,
+        "y": 120.5,
+        "width": 39,
+        "height": 43
+      },
+      "design720": {
+        "x": 496.57810839532414,
+        "y": 1028.6928799149841,
+        "width": 29.840595111583422,
+        "height": 32.901168969181725
+      },
+      "opaquePixelCount": 1365
+    },
+    {
+      "id": "flower_left_upper",
+      "path": "L1_UI/bottom_exact/foreground/flower_left_upper.png",
+      "purpose": "凑副左上原图白花与装饰",
+      "order": 23,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 13,
+        "y": 1330,
+        "width": 72,
+        "height": 65
+      },
+      "contentPixelRect": {
+        "x": 15,
+        "y": 1332,
+        "width": 68,
+        "height": 61
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -421.5,
+        "y": 123.5,
+        "width": 72,
+        "height": 65
+      },
+      "design720": {
+        "x": 9.946865037194474,
+        "y": 1017.98087141339,
+        "width": 55.090329436769395,
+        "height": 49.73432518597237
+      },
+      "opaquePixelCount": 3672
+    },
+    {
+      "id": "flower_left_joint",
+      "path": "L1_UI/bottom_exact/foreground/flower_left_joint.png",
+      "purpose": "两行交接左侧花饰",
+      "order": 24,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 15,
+        "y": 1416,
+        "width": 58,
+        "height": 74
+      },
+      "contentPixelRect": {
+        "x": 17,
+        "y": 1418,
+        "width": 54,
+        "height": 70
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -426.5,
+        "y": 33,
+        "width": 58,
+        "height": 74
+      },
+      "design720": {
+        "x": 11.477151965993624,
+        "y": 1083.7832093517536,
+        "width": 44.378320935175346,
+        "height": 56.620616365568544
+      },
+      "opaquePixelCount": 3412
+    },
+    {
+      "id": "flower_right_joint",
+      "path": "L1_UI/bottom_exact/foreground/flower_right_joint.png",
+      "purpose": "两行交接右侧白花",
+      "order": 25,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 866,
+        "y": 1420,
+        "width": 74,
+        "height": 84
+      },
+      "contentPixelRect": {
+        "x": 868,
+        "y": 1422,
+        "width": 70,
+        "height": 80
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 432.5,
+        "y": 24,
+        "width": 74,
+        "height": 84
+      },
+      "design720": {
+        "x": 662.6142401700318,
+        "y": 1086.8437832093518,
+        "width": 56.620616365568544,
+        "height": 64.2720510095643
+      },
+      "opaquePixelCount": 5024
+    },
+    {
+      "id": "flower_left_lower",
+      "path": "L1_UI/bottom_exact/foreground/flower_left_lower.png",
+      "purpose": "底槽左下花朵与叶片",
+      "order": 26,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 94,
+        "y": 1558,
+        "width": 98,
+        "height": 73
+      },
+      "contentPixelRect": {
+        "x": 96,
+        "y": 1560,
+        "width": 94,
+        "height": 69
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -327.5,
+        "y": -108.5,
+        "width": 98,
+        "height": 73
+      },
+      "design720": {
+        "x": 71.92348565356005,
+        "y": 1192.4335812964932,
+        "width": 74.98405951115834,
+        "height": 55.855472901168966
+      },
+      "opaquePixelCount": 5970
+    },
+    {
+      "id": "flower_right_lower",
+      "path": "L1_UI/bottom_exact/foreground/flower_right_lower.png",
+      "purpose": "底槽右下粉花与叶片",
+      "order": 27,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 852,
+        "y": 1542,
+        "width": 91,
+        "height": 99
+      },
+      "contentPixelRect": {
+        "x": 854,
+        "y": 1544,
+        "width": 87,
+        "height": 95
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 427,
+        "y": -105.5,
+        "width": 91,
+        "height": 99
+      },
+      "design720": {
+        "x": 651.9022316684378,
+        "y": 1180.1912858660999,
+        "width": 69.62805526036132,
+        "height": 75.74920297555792
+      },
+      "opaquePixelCount": 7749
+    },
+    {
+      "id": "cloud_front_left",
+      "path": "L1_UI/bottom_exact/foreground/cloud_front_left.png",
+      "purpose": "左下前景虚焦云朵，包含原图混合边缘",
+      "order": 28,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": -2,
+        "y": 1532,
+        "width": 247,
+        "height": 142
+      },
+      "contentPixelRect": {
+        "x": 0,
+        "y": 1534,
+        "width": 243,
+        "height": 138
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": -349,
+        "y": -117,
+        "width": 247,
+        "height": 142
+      },
+      "design720": {
+        "x": -1.5302869287991498,
+        "y": 1172.539851222104,
+        "width": 188.990435706695,
+        "height": 108.65037194473965
+      },
+      "opaquePixelCount": 19309
+    },
+    {
+      "id": "cloud_front_right",
+      "path": "L1_UI/bottom_exact/foreground/cloud_front_right.png",
+      "purpose": "右下前景云朵，包含原图混合边缘",
+      "order": 29,
+      "bakedText": false,
+      "sourcePixelRect": {
+        "x": 730,
+        "y": 1642,
+        "width": 99,
+        "height": 32
+      },
+      "contentPixelRect": {
+        "x": 732,
+        "y": 1644,
+        "width": 95,
+        "height": 28
+      },
+      "padding": 2,
+      "anchor": [
+        0.5,
+        0.5
+      ],
+      "spriteType": "SIMPLE",
+      "trim": "NONE",
+      "packable": false,
+      "filterForNativeAssembly": "NEAREST",
+      "nodeInFooter": {
+        "x": 309,
+        "y": -172,
+        "width": 99,
+        "height": 32
+      },
+      "design720": {
+        "x": 558.5547290116897,
+        "y": 1256.7056323060574,
+        "width": 75.74920297555792,
+        "height": 24.484590860786398
+      },
+      "opaquePixelCount": 1955
+    }
+  ]
+}

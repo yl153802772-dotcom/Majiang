@@ -1,0 +1,13 @@
+{
+  "ver": "1.2.0",
+  "importer": "directory",
+  "imported": true,
+  "uuid": "efdafce4-b5a5-444c-826e-4334c2cf4a38",
+  "files": [],
+  "subMetas": {},
+  "userData": {
+    "isBundle": true,
+    "bundleName": "framework-demo",
+    "priority": 1
+  }
+}

@@ -1,0 +1,56 @@
+# Cocos 自动生成目录：首次打开工程时由编辑器重建。
+/library/
+/temp/
+/local/
+/build/
+/profiles/
+/.creator/
+/native/engine/android/**/*/assets/
+
+# 本机依赖、编辑器状态及操作系统杂项；不要忽略 assets/**/*.meta。
+node_modules/
+/.idea/
+/.vscode/
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini
+*.log
+*.tsbuildinfo
+*.tmp
+*.bak
+*~
+
+# 本机凭据/私有环境配置不进入源码仓库。
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+**/project.private.config.json
+
+# Creator 账号/云服务提示不影响其他人导入运行。
+/settings/v2/packages/information.json
+/settings/v2/packages/cocos-service.json
+
+# UI 源图/建模包/预览重复于 assets 已导入成品；保留少量当前施工资料及测试参数。
+/UI/*
+!/UI/README.md
+!/UI/_docs/
+/UI/_docs/*
+!/UI/_docs/已验收UI架构与施工指南.md
+!/UI/_docs/Codex_UI后续施工任务模板.md
+!/UI/_docs/布局与适配.md
+!/UI/_docs/ui_handoff.json
+!/UI/_docs/bottom_exact/
+/UI/_docs/bottom_exact/*
+!/UI/_docs/bottom_exact/manifest.json
+/UI历史归档/
+
+# 本地构建、截图、哈希和旧需求不参与工程运行；当前定稿/接口/编码规范保留。
+/docs/
+/需求设计/04_原型参考/
+/需求设计/05_历史归档/
+/需求设计/文档迁移对照.md

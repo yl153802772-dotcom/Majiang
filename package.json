@@ -1,0 +1,16 @@
+{
+  "name": "Majing",
+  "uuid": "9ec37e93-4fa4-4b4c-8bb0-824619e852ae",
+  "version": "3.8.8",
+  "creator": {
+    "version": "3.8.8"
+  },
+  "scripts": {
+    "check": "node tools/check-framework.mjs",
+    "test": "node --import ./tests/register.mjs --test tests/*.test.mjs",
+    "check:game": "node tools/check-game.mjs",
+    "test:game": "node --import ./tests/register.mjs --test tests/game/*.test.mjs",
+    "benchmark": "node --import ./tests/register.mjs tests/benchmark.mjs",
+    "preview:framework": "node tools/serve-build.mjs"
+  }
+}

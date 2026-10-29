@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 4,
+  "revision": "UI-HANDOFF-4 / MAIN-UI-03",
+  "status": "main-local-ui-implemented-awaiting-owner-acceptance",
+  "dateContext": "2026-10-29",
+  "projectRoot": "/Users/liang/Projects/Majing",
+  "engine": "3.8.8",
+  "entry": "UI/_docs/已验收UI架构与施工指南.md",
+  "taskTemplate": "UI/_docs/Codex_UI后续施工任务模板.md",
+  "runtimeBaseline": "UI/_docs/UI组件基线.manifest.json",
+  "currentAudit": "UI/_docs/current_ui_component_audit.json",
+  "acceptance": {
+    "visualUiAccepted": false,
+    "source": "负责人否定共享Preview布局；要求仅在Main按本轮图一修改并分三阶段报告",
+    "scope": [
+      "Main第一层UI",
+      "第三层背景",
+      "原MVP功能融合，不重做第二层麻将牌"
+    ],
+    "notClaimed": [
+      "逐像素纹理/字形相同",
+      "负责人重新验收",
+      "微信/真机/真实物理",
+      "发布"
+    ]
+  },
+  "design": {
+    "reference": {
+      "path": "docs/reports/MAIN-UI-03-evidence/owner-reference.png",
+      "width": 941,
+      "height": 1672
+    },
+    "coreWidth": 720,
+    "coreHeight": 1280,
+    "origin": "top-left reference, centered local nodes"
+  },
+  "scene": {
+    "path": "assets/scenes/Main.scene",
+    "uuid": "6f81ed5b-0a4a-4ffc-b7d0-fabc1906c359",
+    "gameplayAttached": true,
+    "uiOwnership": "Main local saved nodes; not synchronized with legacy Preview or shared HUD prefab",
+    "newScenesCreated": 0
+  },
+  "legacyPreview": {
+    "path": "assets/UIRuntime/SkyWhiteV2/Scenes/SkyWhiteV2Preview.scene",
+    "role": "historical only; unchanged this batch"
+  },
+  "prefabs": [
+    {
+      "name": "BufferSlot",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/BufferSlot.prefab",
+      "uuid": "69c9215e-3224-409b-9f00-300d8423e28f",
+      "state": "active-reusable-slot",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/BufferSlot",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "BufferStrip",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/BufferStrip.prefab",
+      "uuid": "1655f1ee-be56-4951-97a4-9449d8789ce9",
+      "state": "inactive-legacy",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/BufferStrip",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "FooterExactNative",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/FooterExactNative.prefab",
+      "uuid": "bcee7161-4d61-47e5-a291-09ebd879484f",
+      "state": "active-editable-nested-ui",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/FooterExactNative",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "FooterExactReference",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/FooterExactReference.prefab",
+      "uuid": "6bd1e6bf-5109-4e53-8639-604aa56da1cd",
+      "state": "active-layout-wrapper",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/FooterExactReference",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "GameHUD",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/GameHUD.prefab",
+      "uuid": "696e4b7f-cd82-4b7d-9cf8-b046cd073698",
+      "state": "active",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/GameHUD",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "MeldSlot",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/MeldSlot.prefab",
+      "uuid": "62df6d35-d6cf-476d-beba-740dd6845818",
+      "state": "active-reusable-slot",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/MeldSlot",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "MeldStrip",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/MeldStrip.prefab",
+      "uuid": "cbbfecfc-d818-4457-802c-0a017ea5babd",
+      "state": "inactive-legacy",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/MeldStrip",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "SkyBackground",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/SkyBackground.prefab",
+      "uuid": "ed4f33e7-e6fc-429a-a6e9-b1ebcfa499cc",
+      "state": "active",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/SkyBackground",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "ToolButton",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/ToolButton.prefab",
+      "uuid": "e9b0d9c1-4a0e-435d-a56e-cf12c0c63633",
+      "state": "active-via-ToolRail",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/ToolButton",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "ToolRail",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/ToolRail.prefab",
+      "uuid": "0ae2e183-cf1f-490f-8667-b938541e23c6",
+      "state": "active",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/ToolRail",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "name": "TopHud",
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/TopHud.prefab",
+      "uuid": "6178c08c-7302-4e20-86ba-dbc3f0f8a706",
+      "state": "active",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/TopHud",
+      "role": "template/historical; does not drive Main layout"
+    },
+    {
+      "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/GameMenu.prefab",
+      "uuid": "e557f69e-903e-46fe-9c2c-3f76b30edf33",
+      "bundle": "game-ui",
+      "bundlePath": "SkyWhiteV2/Prefabs/GameMenu",
+      "component": "SkyWhiteModal",
+      "owner": "UIManager",
+      "scope": "formal Main only; accepted static preview unchanged",
+      "name": "GameMenu",
+      "state": "main-game-only",
+      "role": "template/historical; does not drive Main layout"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "assets/Game/Bootstrap/GameBootstrap.ts",
+      "uuid": "565e0851-2453-47d9-8847-fc3a5dab135a",
+      "role": "unique owner, viewport and layoutOnly"
+    },
+    {
+      "path": "assets/Game/Presentation/UI/SkyWhiteGameView.ts",
+      "uuid": "af9c20f6-7b44-4051-bf75-e4f86ee2123c",
+      "role": "snapshot adapter; plain class"
+    },
+    {
+      "path": "assets/Game/Presentation/UI/SkyWhiteFooterBindings.ts",
+      "uuid": "190f06f3-304c-4362-bcc3-28933e7924c9",
+      "role": "serialized footer fields in Main"
+    },
+    {
+      "path": "assets/Game/Presentation/UI/SkyWhiteMeldSlotBindings.ts",
+      "uuid": "feb11520-90fa-4189-be75-27c2bf3bdf44",
+      "role": "serialized slot fields in Main"
+    },
+    {
+      "path": "assets/Game/Presentation/UI/MainUiShape.ts",
+      "uuid": "1d3ff70a-78e6-4f50-a926-564d81d0893c",
+      "role": "editable Graphics paper/decoration"
+    }
+  ],
+  "nodePaths": {
+    "hud": "OverlayCanvas/SafeContentRoot/GameHUD",
+    "background": "BackgroundCanvas/SkyBackground/BackgroundImage",
+    "footer": "OverlayCanvas/SafeContentRoot/GameHUD/FooterExactReference/OriginalImageMapping/FooterExactNative",
+    "board": "Board3DRoot"
+  },
+  "footer": {
+    "editable": true,
+    "localToMain": true,
+    "cameras": 0,
+    "canvases": 0,
+    "renderTexture": false,
+    "bakedTextPanels": false,
+    "meldSlots": 4,
+    "bufferSlots": 7,
+    "bufferBlocks": 7,
+    "labels": 38,
+    "plus": "disabled Button",
+    "skinPolicy": "clean panels, independent non-text slots/icons; no composite",
+    "renderOrder": [
+      "Skin",
+      "IndexPaper",
+      "Index",
+      "ContentsRoot"
+    ]
+  },
+  "fieldBindings": {
+    "footer": [
+      "meldCount",
+      "bufferCount",
+      "meldSlots[4]",
+      "bufferBlocks[7]",
+      "firstCards[7]",
+      "secondCards[7]",
+      "addButton"
+    ],
+    "meldSlot": [
+      "index",
+      "cards[4]"
+    ]
+  },
+  "gameIntegration": {
+    "bootstrap": "assets/Game/Bootstrap/GameBootstrap.ts",
+    "view": "assets/Game/Presentation/UI/SkyWhiteGameView.ts",
+    "rules": "V2.3 / 888-v3",
+    "layoutOnlyDefault": false,
+    "layoutOnlyPurpose": "Same Main: UI/background only, no App/GameSession/board/input",
+    "loading": "Main serialized assets; GameMenu remains ResManager/UIManager game-ui Bundle",
+    "snapshotFields": [
+      "levelId",
+      "board[].definition.cards.length",
+      "occupiedSlots",
+      "melds"
+    ],
+    "clock": "00:00 placeholder",
+    "star": "0 placeholder",
+    "toolsEnabled": false,
+    "addMeldEnabled": false,
+    "newMahjongArt": false,
+    "build": "build/main-ui-03-web",
+    "localUrl": "http://127.0.0.1:8911/"
+  },
+  "inventory": {
+    "mainLocalNodes": 131,
+    "mainCameras": 3,
+    "runtimePngs": 51,
+    "libraryPrefabs": 12,
+    "legacyPreviewScenes": 1,
+    "newScenes": 0
+  },
+  "reports": [
+    "docs/reports/MAIN-UI-03-阶段1-Main排版.md",
+    "docs/reports/MAIN-UI-03-阶段2-MVP融合.md",
+    "docs/reports/MAIN-UI-03-阶段3-完整整合.md"
+  ],
+  "historicalStaticBaseline": "UI/_docs/UI验收基线.manifest.json",
+  "preserveByDefault": [
+    "Framework",
+    "Domain/Application",
+    "Level888/RecommendedSolution",
+    "source PNG/meta/UUID",
+    "legacy scenes/prefabs",
+    "settings/package/tsconfig"
+  ],
+  "nextWorkRequiresSpecificTask": true,
+  "observedConcurrentChange": {
+    "path": "assets/UIRuntime/SkyWhiteV2/Prefabs/FooterExactNative.prefab",
+    "source": "not confirmed",
+    "noticedAt": "final scope audit",
+    "semanticChanges": [
+      "meld_frame 927x157 -> 940x210",
+      "buffer_frame height160 ->210",
+      "two cloud skin sizes changed",
+      "Cocos serialization order/defaults changed"
+    ],
+    "agentWriteIncluded": false,
+    "overwritten": false,
+    "affectsMainLayout": false,
+    "evidence": "docs/reports/MAIN-UI-03-evidence/footer-serialization-audit.json"
+  }
+}
